@@ -1,0 +1,5 @@
+x,y,z = list(map(int,input().split()))
+if y < z:
+    print((z-y)//x)
+else:
+    print(0)
