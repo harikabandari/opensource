@@ -1,0 +1,7 @@
+n = int(input())
+dis1 = n-int((n*0.10))
+dis2 = n-100
+if dis1 < dis2:
+    print(dis1)
+else:
+    print(dis2)
