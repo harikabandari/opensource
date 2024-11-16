@@ -1,0 +1,9 @@
+import math
+x, n = list(map(int, input().split()))
+res = x*100
+if res >= n:
+    print(0)
+else:
+    res2 = n-res
+    output = res2/100
+    print(math.ceil(output))
